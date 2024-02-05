@@ -1,5 +1,7 @@
 {
   "name": "my-react-app",
+  "homepage": "https://Gayan-98.github.io/reactcicd/",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",

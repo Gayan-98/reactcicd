@@ -12,11 +12,13 @@ jobs:
         with:
           node-version: 18.x
       
-      - name: Change to my-react-app directory
-        run: cd my-react-app  
-          
+      
+       
+
       - name: Install Dependencies
         run: npm install
+        working-directory: ./my-react-app
+
       - name: Build Project
         run: npm run build
       - name: Upload artifact to enable deployment
